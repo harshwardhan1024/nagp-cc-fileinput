@@ -55,6 +55,6 @@ app.post('/upload', upload.single('file'), (req, res) => {
 });
 
 // Start the server
-app.listen(80, () => {
-  console.log('Server listening on port 80');
+app.listen(8080, () => {
+  console.log('Server listening on port 8080');
 });
